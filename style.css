@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+body{
+    background-color:#f5f5f5;
+}
+
+.top{
+    width:100%;
+    
+}
+
+.test{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url("../img/top_mask.png");
+    
+}
+
+.one {
+    -webkit-mask-image: url(https://assets.codepen.io/5928893/star-mask.png);
+    mask-image: url(https://assets.codepen.io/5928893/star-mask.png);
+  }
+
+.top-mask{
+    -webkit-mask-image:url("../img/top-mask.png");
+    mask-image: url("../img/top-mask.png");
+    
+
+    
+    
+}
+
+   
+
+li{
+    list-style:none;
+}
+
+
+
+
+.introduction1{
+    display:flex;
+    
+    
+    min-height: 80vh;
+    align-items: center;
+    justify-content: flex-end;
+    position:relative;
+    margin:0 10%;
+    
+    
+}
+
+.column2-l{
+    
+    position:absolute;
+    top:10%;
+    left: 0;
+    width: 55%;
+    font-size: 22px;
+    
+    z-index: 2;
+    
+    
+
+}
+
+.img-column2-l{
+    width:100%;
+    
+    
+}
+
+
+.img-r{
+
+    
+    top:0;
+    right:0;
+    width:55%;
+    height:auto;
+
+    
+    
+    z-index: 1;
+    
+    
+}
+
+.introduction2{
+    display:flex;
+    
+    
+    min-height: 80vh;
+    align-items: center;
+    justify-content: flex-start;
+    position:relative;
+    margin:0 10%;
+    
+    
+}
+
+.column2-r{
+    
+    position:absolute;
+    top:10%;
+    right: 0;
+    width: 50%;
+    font-size: 22px;
+    
+    z-index: 2;
+
+}
+
+
+
+.img-l{
+
+
+    width:55%;
+    height:auto;
+    
+    z-index: 1;
+    
+    
+}
+
+.img-column2-r{
+    width:100%;
+    
+    
+    
+}
+
+.how-to-use1{
+    min-height: 7cqw;
+    display: flex;
+    flex-direction: column;
+    gap:3vh;
+    
+}
+
+.ani-right{
+    margin-left: auto;
+    width: 60%;
+}
+
+.ani-left{
+    width: 60%;
+
+}
+
+.how-to-use2{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.animation4{
+    width:10%;
+    
+}
+
+.column1{
+    display: flex;
+    margin:0 10vw;
+    
+}
+
+.merit{
+    width:100%;
+}
+
+.under{
+    background-color: #D2743F;
+    min-height:80vh;
+}
+
+.ani-container{
+    display:flex;
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+    color:white;
+}
