@@ -22,8 +22,8 @@ body{
   }
 
 .top-mask{
-    -webkit-mask-image:url("../img/top-mask.png");
-    mask-image: url("../img/top-mask.png");
+    -webkit-mask-image:url("https://github.com/s-yout30/cardcheers/blob/main/top_mask.png?raw=true");
+    mask-image: url("https://github.com/s-yout30/cardcheers/blob/main/top_mask.png?raw=true");
     
 
     
