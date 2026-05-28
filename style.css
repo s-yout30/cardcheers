@@ -354,7 +354,7 @@ h2{
 
 .ani-right{
     margin-left: auto;
-    width: 60%;
+    width: 50%;
 
     animation-name:animation-right;
     animation-fill-mode: both;
@@ -377,7 +377,7 @@ h2{
 }
 
 .ani-left{
-    width: 60%;
+    width: 50%;
 
     animation-name:animation-left;
     animation-fill-mode: both;
