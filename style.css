@@ -11,6 +11,12 @@ body{
     
 }
 
+@media screen and (max-width:767px) {
+    body{
+        overflow-x: visible;
+    }
+}
+
 .menu-btn {
     position: fixed;
     top: 10px;
